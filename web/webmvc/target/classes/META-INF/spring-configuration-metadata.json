@@ -1,0 +1,63 @@
+{
+  "groups": [
+    {
+      "name": "spring.sys.info",
+      "type": "com.zpx.web.mvc.autoconfigure.SysProperties",
+      "sourceType": "com.zpx.web.mvc.autoconfigure.SysProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.sys.info.console-url",
+      "type": "java.lang.String",
+      "sourceType": "com.zpx.web.mvc.autoconfigure.SysProperties"
+    },
+    {
+      "name": "spring.sys.info.icon-id",
+      "type": "java.lang.String",
+      "sourceType": "com.zpx.web.mvc.autoconfigure.SysProperties"
+    },
+    {
+      "name": "spring.sys.info.iscalculation",
+      "type": "java.lang.Integer",
+      "sourceType": "com.zpx.web.mvc.autoconfigure.SysProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.sys.info.request-interface",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.zpx.web.mvc.autoconfigure.SysProperties"
+    },
+    {
+      "name": "spring.sys.info.server-url",
+      "type": "java.lang.String",
+      "sourceType": "com.zpx.web.mvc.autoconfigure.SysProperties"
+    },
+    {
+      "name": "spring.sys.info.system-key",
+      "type": "java.lang.String",
+      "sourceType": "com.zpx.web.mvc.autoconfigure.SysProperties"
+    },
+    {
+      "name": "spring.sys.info.system-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zpx.web.mvc.autoconfigure.SysProperties"
+    },
+    {
+      "name": "spring.sys.info.system-only",
+      "type": "java.lang.String",
+      "sourceType": "com.zpx.web.mvc.autoconfigure.SysProperties"
+    },
+    {
+      "name": "spring.sys.info.system-url",
+      "type": "java.lang.String",
+      "sourceType": "com.zpx.web.mvc.autoconfigure.SysProperties"
+    },
+    {
+      "name": "spring.sys.info.system-value",
+      "type": "java.lang.String",
+      "sourceType": "com.zpx.web.mvc.autoconfigure.SysProperties"
+    }
+  ],
+  "hints": []
+}

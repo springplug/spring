@@ -1,0 +1,33 @@
+{
+  "groups": [
+    {
+      "name": "lock.redis.reactive",
+      "type": "com.zpx.data.reactive.redis.properties.ReactiveRedisLockProperties",
+      "sourceType": "com.zpx.data.reactive.redis.lock.configuration.ReactiveRedisLockAutoConfiguration",
+      "sourceMethod": "redisDistributedLockProperties()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "lock.redis.reactive.expire-after",
+      "type": "java.time.Duration",
+      "description": "max redis key expire duration",
+      "sourceType": "com.zpx.data.reactive.redis.properties.ReactiveRedisLockProperties",
+      "defaultValue": "60s"
+    },
+    {
+      "name": "lock.redis.reactive.expire-evict-idle",
+      "type": "java.time.Duration",
+      "description": "expire evict idle duration",
+      "sourceType": "com.zpx.data.reactive.redis.properties.ReactiveRedisLockProperties",
+      "defaultValue": "30s"
+    },
+    {
+      "name": "lock.redis.reactive.registry-key-prefix",
+      "type": "java.lang.String",
+      "description": "global registry key prefix",
+      "sourceType": "com.zpx.data.reactive.redis.properties.ReactiveRedisLockProperties"
+    }
+  ],
+  "hints": []
+}

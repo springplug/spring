@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <groupId>io.github.springplug.user</groupId>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>user-simple-reactive</artifactId>
+    <version>1.0.0</version>
+    <properties>
+        <feign-reactor.version>3.0.3</feign-reactor.version>
+    </properties>
+
+
+    <dependencies>
+
+        <dependency>
+            <groupId>com.playtika.reactivefeign</groupId>
+            <artifactId>feign-reactor-spring-configuration</artifactId>
+            <version>${feign-reactor.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.playtika.reactivefeign</groupId>
+            <artifactId>feign-reactor-cloud2</artifactId>
+            <version>2.0.31</version>
+        </dependency>
+        <dependency>
+            <groupId>com.playtika.reactivefeign</groupId>
+            <artifactId>feign-reactor-webclient</artifactId>
+            <version>${feign-reactor.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.playtika.reactivefeign</groupId>
+            <artifactId>feign-reactor-java11</artifactId>
+            <version>${feign-reactor.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.github.springplug</groupId>
+            <artifactId>webflux</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>11</source>
+                    <target>11</target>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+
+</project>
